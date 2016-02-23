@@ -12,6 +12,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 @SuppressWarnings("serial")
+/*
+	*Main method that runs program
+	*extending from JFrame
+*/
 class MainFrame extends JFrame {
 	AccountServer	myServer;
 	Properties		props;
