@@ -113,14 +113,17 @@ class ServerSolution implements AccountServer {
 			for (int i=0; i < accountMap.size(); i++) {
 				out.writeObject(accountMap.get(i));
 			}
-		} catch (Exception e) {
+		} 
+		catch (Exception e) {
 			e.printStackTrace();
 			throw new IOException("Could not write file:" + fileName);
-		} finally {
+		} 
+		finally {
 			if (out != null) {
 				try {
 					out.close();
-				} catch (Throwable t) {
+				} 
+				catch (Throwable t) {
 					t.printStackTrace();
 				}
 			}
