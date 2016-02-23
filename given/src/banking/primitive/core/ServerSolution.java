@@ -103,7 +103,7 @@ class ServerSolution implements AccountServer {
 		}
 		return result;
 	}
-	
+	//adding a comment banner for saveAccounts
 	public void saveAccounts() throws IOException {
 		ObjectOutputStream out = null; 
 		try {
